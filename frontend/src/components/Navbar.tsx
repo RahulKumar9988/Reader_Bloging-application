@@ -15,7 +15,7 @@ export const Navbar = ()=>{
             <nav className=" bg-primary navbar navbar-expand-lg navbar-light flex justify-around items-center h-15 border-b-2">
                 <Link to={'/blogs'}>
                     <div className="flex gap-0">
-                        <img className="h-8" src="../../public/logo.jpg" alt="logo" />
+                        <img className="h-8" src="/logo.jpg" alt="logo" />
                         <p className="text-2xl font-semibold">Reader</p>
                     </div>
                 </Link>
