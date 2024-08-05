@@ -1,6 +1,7 @@
 {
   "name": "medium",
   "scripts": {
+    "build": "vite build",
     "dev": "wrangler dev src/index.ts",
     "deploy": "wrangler deploy --minify src/index.ts"
   },
