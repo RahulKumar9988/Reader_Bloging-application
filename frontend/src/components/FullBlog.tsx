@@ -4,7 +4,7 @@ import { Msg } from "./Msg";
 import { Navbar } from "./Navbar";
 
 export const FullBlog = ({ blog }: {blog: Blog}) => {
-    return <div className="bg-primary h-full">
+    return <div className="bg-primary h-auto">
         <Navbar />
         <Msg/>
         <div className="grid grid-cols-1  md:grid-cols-2 text-justify p-4 ">
